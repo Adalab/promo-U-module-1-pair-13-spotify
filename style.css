@@ -1,3 +1,6 @@
+:root{
+    --background-color:black;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +12,7 @@
     width: auto; 
 }
 .principal {
-    background-color: black;
+    background-color: var(--background-color); 
     display: flex;
     width: 100%;
     color: white;
@@ -17,7 +20,7 @@
     top: 0;
 }
 .principal-contenedor {
-    background-color: black;
+    background-color: var(--background-color);
     width: 100%;
     display: flex;
     align-items: center;
@@ -35,7 +38,7 @@
     color: white;
 }
 .imge {
-    background-image: url(./images/premium_dancer.png);
+    background-image: (AQUI FALTA FOTO CHICA BAILANDO);
     background-repeat: no-repeat;
     background-position: right;
     height: 600px;
