@@ -6,3 +6,74 @@
 .body {
     font-family: "Roboto", sans-serif;
 }
+.header{
+   background-color: black; 
+   display: flex;
+   width: 100%;
+   height: 40px;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+    height: 40px;
+    width: auto; 
+}
+.menu{
+    height: 40px;
+    width: auto; 
+}
+.imge{
+    background-position: right;
+    height: 600px;
+    padding-left: 40%;
+    background-color: rgb(80, 156, 243);
+    color: white;
+    height: 600px;
+    padding-left: 40%;
+
+}
+h1 {
+    position:absolute;
+    color: white;
+    top: 125px;
+    left: 50px;
+    font-size: 100px;
+    overflow-block: 150px;
+    font-family: "Roboto", sans-serif;
+}
+span {
+    position:absolute;
+    color: white;
+    top: 400px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Planes {
+    background-color: green;
+    color:white;
+    text-decoration: none;
+    top: 500px;
+    left: 50px;
+    position: absolute;
+    font-size: 20px;
+    
+}
+small {
+    position:absolute;
+    color: white;
+    top: 600px;
+    left: 50px;
+
+}
+.section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.benefit1{
+    justify-content: right;
+}

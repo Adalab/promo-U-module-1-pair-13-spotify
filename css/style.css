@@ -1,4 +1,4 @@
-* {
+/** {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@
     color: white;
 }
 .imge {
-    background-image: url(/home/adalaber/adalab/Proyectos/Proyecto-modulo-1-Spotify/promo-U-module-1-pair-13-spotify/images/premium_dancer.png);
+   background-image: url(../images/premium_dancer.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 600px;
@@ -79,3 +79,4 @@ small {
     left: 50px;
 
 }
+*/
