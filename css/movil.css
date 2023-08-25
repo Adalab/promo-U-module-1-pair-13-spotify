@@ -22,7 +22,7 @@
 .logo{
     height: 40px;
     width: auto; 
-    pa
+
 }
 .menu{
     height: 40px;
@@ -97,7 +97,7 @@ small {
 
 
 
-/*
+
 :root {
     font-size: 62.5%;
 }
@@ -143,7 +143,7 @@ small {
     background-color: #ffffff;
     transform: translateY(50%);
     flex-grow: 1;
-    margin 0 1.5rem;
+    margin:0 1.5rem;
 }
 .cabecera {
     height: 3.5rem;
@@ -163,4 +163,3 @@ small {
     color: #ffffff;
     text-decoration: none;
 }
-*/
