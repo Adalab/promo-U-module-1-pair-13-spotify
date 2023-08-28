@@ -1,14 +1,13 @@
 :root {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.body {
-    font-family: "Roboto", sans-serif;
-}
+
 .nav {
     background-color: black; 
     width: 100%;
@@ -28,12 +27,13 @@
 .nav-toggle {
     height: 40px;
     width: auto;
-   
-}
+    display: flex;
+   }
 
 .nav-menu {
-    display: flex;
+    display: none;
     justify-content: space-between;
+
 
 }
 .nav-link {
@@ -86,7 +86,7 @@ h2{
     font-weight: bold;
 }
 .Plans {
-    background-color: green;
+    background-color: rgb(8, 170, 94);
     color:white;
     padding: 5px;
     text-decoration: none;
@@ -124,7 +124,13 @@ small {
 .flag{
 
 }
-@media (min-width: 480px) {
+@media (min-width: 481px) {
+    .nav-toggle{
+        display: none;
+    }
+    .nav-menu{
+        display: flex;
+    }
     .section1 {
         background-image: url(../images/premium_dancer.png);
         background-repeat: no-repeat;
@@ -133,7 +139,7 @@ small {
         padding-left: 40%;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1001px) {
     .section1 {
         background-image: url(../images/premium_dancer.png);
         background-repeat: no-repeat;
