@@ -1,20 +1,25 @@
+.header{
+    z-index: 100%;
+    position:fixed;
+}
 .nav {
     background-color: black; 
     width: 100%;
+    top: 0;
+    left: 0;
     height: 50px;
     color: white;
     justify-content: space-between;
     align-items: center;
     display: flex;
     position: fixed;
-    top: 0;
-    left:0;
 
-    &_toggle {
-    height: 40px;
-    width: auto;
-    display: flex;
-    @media (min-width: 481px) {
+     &_toggle {
+        height: 4rem;
+        width: 48rem;
+        display: flex;
+        justify-content: space-around;
+        @media (min-width: 481px) {
         .nav_toggle{
             display: none;
             }
